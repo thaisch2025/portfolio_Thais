@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Thais Carvalho | Portfolio</title>
+  <link rel="stylesheet" href="css/thais_style.css">
+</head>
+
+
+
+
+<body>
+
+    <header class="site-header">
+  <h1>Thais Carvalho Web Solutions</h1>
+</header>
+
+
+    <button id="backToTop" onclick="scrollToTop()">↑</button>
+<script>
+  // Mostrar botão ao rolar
+  window.addEventListener("scroll", function() {
+    const btn = document.getElementById("backToTop");
+    if (window.scrollY > 300) {
+      btn.style.display = "block";
+    } else {
+      btn.style.display = "none";
+    }
+  });
+
+  // Função rolar para o topo
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+</script>
+
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="#About">About</a></li>
+      <li><a href="#Skills">Skills</a></li>
+      <li><a href="#Projects">Projects</a></li>
+      <li><a href="#Contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- About Section -->
+<!-- Seção 1: Imagem à esquerda -->
+<section id="About" class="section">
+  <h2 class="section-title">About Me</h2>
+
+  <div class="flex-section">
+    <img src="img/foto_thais.png" alt="Thais Carvalho" class="flex-image">
+    <div class="flex-text">
+      <p>
+        Hello! I'm <strong>Thais Carvalho</strong>, a web developer passionate about 
+        <em>creating clean and interactive websites</em>. I enjoy turning ideas into
+        digital solutions that are not only functional, but also engaging.
+        My background blends <strong>creativity</strong> and <strong>logic</strong>, and I'm
+        constantly exploring new technologies and design trends to improve my skills.
+      </p>
+      <p>
+        I'm driven by <strong>curiosity</strong> and the desire to make things better.
+        Whether it’s designing layouts, experimenting with animations, or solving code problems,
+        I aim to create experiences that are intuitive and delightful.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+<!-- Seção 2 -->
+
+<section id="ProcessoCriativo" class="section">
+  <h2 class="section-title">My Creative Process</h2>
+  <div class="process-container">
+    <div class="step">
+      <div class="icon">💡</div>
+      <h3>Inspiration</h3>
+      <p>I start with research, visual references, and brainstorming.</p>
+    </div>
+    <div class="step">
+      <div class="icon">📝</div>
+      <h3>Planning</h3>
+      <p>I define goals, target audience, and site structure.</p>
+    </div>
+    <div class="step">
+      <div class="icon">🎨</div>
+      <h3>Design</h3>
+      <p>I sketch and create mockups that balance beauty and usability.</p>
+    </div>
+    <div class="step">
+      <div class="icon">💻</div>
+      <h3>Development</h3>
+      <p>I build the solution using clean, responsive code.</p>
+    </div>
+    <div class="step">
+      <div class="icon">🚀</div>
+      <h3>Launch</h3>
+      <p>I test, adjust and publish, always aiming for excellence.</p>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+  <!-- Skills Section -->
+  <section id="Skills" class="section">
+    <h2 class="section-title">Skills</h2>
+
+    <div class="skills-images">
+        <img src="img/html_css.jpeg" alt="html_css icon">
+        <img src="img/git_github.png" alt="git_github icon">
+    </div>
+
+    <ul class="skills-list">
+      <li>HTML5</li>
+      <li>CSS3</li>
+      <li>Responsive Design</li>
+      <li>Git & GitHub</li>
+      <li>JavaScript (beginner)</li>
+    </ul>
+  </section>
+
+  <!-- Projects Section -->
+
+ <section id="Projects" class="section projects-section">
+  <h2 class="section-title">Projects</h2>
+
+  <div class="projects-grid">
+    <div class="project-card fancy-card">
+      <img src="img/travel1.jpg" alt="Travel Website" class="project-image">
+      <h3>Travel Website</h3>
+      <p>A simple website showing travel destinations using Flexbox layout.</p>
+      <a href="https://exemplo-travel-site.com" target="_blank">Visit Site</a>
+    </div>
+
+    <div class="project-card fancy-card">
+      <img src="img/blog.jpg" alt="Blog Layout" class="project-image">
+      <h3>Personal Blog Layout</h3>
+      <p>A blog-style page created with HTML and CSS, focused on clean structure.</p>
+      <a href="https://exemplo-blog-layout.com" target="_blank">Visit Site</a>
+    </div>
+
+    <div class="projects-grid">
+    <div class="project-card fancy-card">
+      <img src="img/portfolio.jpg" alt="Travel Website" class="project-image">
+      <h3>Travel Website</h3>
+      <p>A simple website showing travel destinations using Flexbox layout.</p>
+      <a href="https://exemplo-travel-site.com" target="_blank">Visit Site</a>
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- Contact Section -->
+  <section id="Contact" class="section">
+    <h2 class= "section-title">Contact</h2>
+    <p>📞 Phone: 416-358-8109</p>
+    <p>📧 Email: thais.ch@gmail.com</p>
+    <p>📍 Address: 220 Woolner Ave - Toronto</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Thais Carvalho. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
